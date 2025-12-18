@@ -3,4 +3,4 @@ console.log('Hello, world!');
 const True = true;
 const False = false;
 const None = null;
-const printf= console.log;
+const printf = console.log;
