@@ -40,7 +40,4 @@ def choseong(s):
 
 def is_hangul(foobar):
     unicode = ord(foobar)
-    if HANGUL_BASE <= unicode <= HANGUL_LAST:
-        foobar = True
-    else:
-        foobar = False
+    return HANGUL_BASE <= unicode <= HANGUL_LAST
