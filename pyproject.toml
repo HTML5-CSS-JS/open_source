@@ -1,6 +1,2 @@
 [project]
 requires-python = ">=3.14"
-
-# 단일 파일 모듈 지정
-[tool.setuptools]
-py-modules = ["hangul"]
