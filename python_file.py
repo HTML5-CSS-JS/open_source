@@ -38,7 +38,7 @@ def choseong(s):
     
     return ''.join(choseong_char(ch) for ch in s)
 
-def hangul(foobar):
+def is_hangul(foobar):
     unicode = ord(foobar)
     if HANGUL_BASE <= unicode <= HANGUL_LAST:
         foobar = True
