@@ -1,2 +1,5 @@
+# -*- coding: utf-8 -*-
 from . import hangul
-#a
+import sys
+import os
+import customtkinter
