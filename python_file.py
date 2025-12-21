@@ -37,3 +37,10 @@ def choseong(s):
     #- 출력: 초성 문자열 (예: "ㅇㄴㅎㅅㅇ")
     
     return ''.join(choseong_char(ch) for ch in s)
+
+def hangul(foobar):
+    unicode = ord(foobar)
+    if HANGUL_BASE <= unicode <= HANGUL_LAST:
+        foobar = True
+    else:
+        foobar = False
