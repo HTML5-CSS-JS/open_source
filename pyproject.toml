@@ -1,2 +1,16 @@
 [project]
+name = "opensource app"
+version = "alpha 1.0"
+description = "CustomTkinter + pygame + hangul project"
+requires-python = ">=3.14"
+
+# 의존성 패키지 지정
+dependencies = [
+    "customtkinter",
+    "pygame-ce"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"[project]
 requires-python = ">=3.14"
